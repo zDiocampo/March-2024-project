@@ -1,0 +1,61 @@
+.background {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 0;
+    box-sizing: border-box;
+    background:linear-gradient(0deg, rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("../images/calcu.jpg");
+      background-size:cover;
+    height: 100vh;
+  }
+  
+  .calculator {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    align-items: center;
+    position: absolute;
+  top: 50%; right: 50%;
+  transform: translate(50%,-50%);
+  }
+  
+  input[type='text'] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: right;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e9e9e9;
+  }
+  
+  button:active {
+    background-color: #ddd;
+  }
+  
